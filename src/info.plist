@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>cz.vookimedlo.alfred.icns</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>04C31468-0450-4688-B4A4-4CE6D2A144C5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CDD9CBC5-F3E1-42E4-97C6-262C12C0AC81</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>1A2D9EC9-AAEE-4D40-8E95-E08019A52960</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E19F01AB-371F-4B1B-A2AB-4752CE3352EB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>F913A4D1-A8A0-4DDB-B408-63421EAFC5B7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>04C31468-0450-4688-B4A4-4CE6D2A144C5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>21421912-D643-4226-9610-5A28F68255D3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F9A25DB7-7524-49F4-A710-63D72C81878E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>2F761798-BE46-4661-A646-2C65036A2134</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>219F351C-9C24-4FF1-AC88-1DD0BA24C80C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0383BA4A-9598-424F-8F81-3835F30E51A6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E19F01AB-371F-4B1B-A2AB-4752CE3352EB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>674883FF-33FD-4074-AD35-2D310FD61DB8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F913A4D1-A8A0-4DDB-B408-63421EAFC5B7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>27E772FF-2970-4869-AF70-401CFAD3A91C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F9A25DB7-7524-49F4-A710-63D72C81878E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1A2D9EC9-AAEE-4D40-8E95-E08019A52960</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>219F351C-9C24-4FF1-AC88-1DD0BA24C80C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Michal Duda</string>
+	<key>description</key>
+	<string>Makes App Icon [icns] from at least 1024x1024px image.</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>MakeAppIcon</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Input icon needs to have a square shape.</string>
+				<key>title</key>
+				<string>MakeAppIcon</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>674883FF-33FD-4074-AD35-2D310FD61DB8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<true/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>squareError</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>E19F01AB-371F-4B1B-A2AB-4752CE3352EB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Icon creation has failed.</string>
+				<key>title</key>
+				<string>MakeAppIcon</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>27E772FF-2970-4869-AF70-401CFAD3A91C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>acceptsmulti</key>
+				<false/>
+				<key>filetypes</key>
+				<array>
+					<string>+public.image</string>
+				</array>
+				<key>name</key>
+				<string>Make App Icon [icns]</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.action</string>
+			<key>uid</key>
+			<string>21421912-D643-4226-9610-5A28F68255D3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>input="{query}"
+
+
+if [ -z ${input} ]; then
+    echo -n "error"
+else
+    filename="${input%.*}"
+
+	width=`sips -g pixelWidth   "$input" | grep -i width  | cut -d: -f2`
+	heigth=`sips -g pixelHeight "$input" | grep -i height | cut -d: -f2`
+
+    if [ $width -ne $heigth ]; then
+      echo -n "squareError"
+    elif [ $width -lt 1024 ]; then
+      echo -n "sizeError" 
+    else
+    	  mkdir "$filename.iconset" 2&gt;&amp;1 &gt;/dev/null &amp;&amp; \
+      sips -z    16 16   "$input" --out "$filename.iconset/icon_16x16.png" 2&gt;&amp;1 &gt;/dev/null &amp;&amp; \
+      sips -z    32 32   "$input" --out "$filename.iconset/icon_16x16@2x.png" 2&gt;&amp;1 &gt;/dev/null &amp;&amp; \
+      sips -z    32 32   "$input" --out "$filename.iconset/icon_32x32.png" 2&gt;&amp;1 &gt;/dev/null &amp;&amp; \
+      sips -z    64 64   "$input" --out "$filename.iconset/icon_32x32@2x.png" 2&gt;&amp;1 &gt;/dev/null &amp;&amp; \
+      sips -z   128 128  "$input" --out "$filename.iconset/icon_128x128.png" 2&gt;&amp;1 &gt;/dev/null &amp;&amp; \
+      sips -z   256 256  "$input" --out "$filename.iconset/icon_128x128@2x.png" 2&gt;&amp;1 &gt;/dev/null &amp;&amp; \
+      sips -z   256 256  "$input" --out "$filename.iconset/icon_256x256.png" 2&gt;&amp;1 &gt;/dev/null &amp;&amp; \
+      sips -z   512 512  "$input" --out "$filename.iconset/icon_256x256@2x.png" 2&gt;&amp;1 &gt;/dev/null &amp;&amp; \
+      sips -z   512 512  "$input" --out "$filename.iconset/icon_512x512.png" 2&gt;&amp;1 &gt;/dev/null &amp;&amp; \
+      sips -z 1024 1024  "$input" --out "$filename.iconset/icon_512x512@2x.png" 2&gt;&amp;1 &gt;/dev/null &amp;&amp; \
+      iconutil -c icns "$filename.iconset" 2&gt;&amp;1 &gt;/dev/null &amp;&amp; \
+      rm -r "$filename.iconset" 2&gt;&amp;1 &gt;/dev/null
+
+      if [ $? -eq 0 ]; then echo -n "ok"; else echo -n "error"; fi
+    fi
+fi</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>F9A25DB7-7524-49F4-A710-63D72C81878E</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<true/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>error</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>F913A4D1-A8A0-4DDB-B408-63421EAFC5B7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<true/>
+				<key>matchmode</key>
+				<integer>1</integer>
+				<key>matchstring</key>
+				<string>ok</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>1A2D9EC9-AAEE-4D40-8E95-E08019A52960</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Input icon size has to be at least 1024x1024px.</string>
+				<key>title</key>
+				<string>MakeAppIcon</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>CDD9CBC5-F3E1-42E4-97C6-262C12C0AC81</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<true/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>sizeError</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>04C31468-0450-4688-B4A4-4CE6D2A144C5</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Icon was created.</string>
+				<key>title</key>
+				<string>MakeAppIcon</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>0383BA4A-9598-424F-8F81-3835F30E51A6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<true/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>ok</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>219F351C-9C24-4FF1-AC88-1DD0BA24C80C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>readonly latestTag=`curl -s https://api.github.com/repos/vookimedlo/alfred-make-appicon/releases/latest | grep browser_download_url | grep MakeAppIcon.alfredworkflow | cut -d '/' -f 8`
+
+# THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
+readonly remote_info_plist="https://raw.githubusercontent.com/vookimedlo/alfred-make-appicon/${latestTag}/src/info.plist"
+readonly workflow_url=`curl -s https://api.github.com/repos/vookimedlo/alfred-make-appicon/releases/latest | grep browser_download_url | grep MakeAppIcon.alfredworkflow | cut -d '"' -f 4`
+readonly download_type='direct'
+readonly frequency_check='4'
+
+# FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED!
+function abort {
+  echo "${1}" &gt;&amp;2
+  exit 1
+}
+
+function url_exists {
+  curl --silent --location --output /dev/null --fail --range 0-0 "${1}"
+}
+
+function notification {
+  readonly local notificator="$(find . -type d -name 'Notificator.app')"
+  if [[ -n "${notificator}" ]]; then
+    "${notificator}/Contents/Resources/Scripts/notificator" --message "${1}" --title "${alfred_workflow_name}" --subtitle 'A new version is available'
+    return
+  fi
+
+  readonly local terminal_notifier="$(find . -type f -name 'terminal-notifier')"
+  if [[ -n "${terminal_notifier}" ]]; then
+    "${terminal_notifier}" -title "${alfred_workflow_name}" -subtitle 'A new version is available' -message "${1}"
+    return
+  fi
+
+  osascript -e "display notification \"${1}\" with title \"${alfred_workflow_name}\" subtitle \"A new version is available\""
+}
+
+# Local sanity checks
+readonly local_info_plist='info.plist'
+readonly local_version="$(/usr/libexec/PlistBuddy -c 'print version' "${local_info_plist}")"
+
+[[ -n "${local_version}" ]] || abort 'You need to set a workflow version in the configuration sheet.'
+[[ "${download_type}" =~ ^(direct|page|github_release)$ ]] || abort "'download_type' (${download_type}) needs to be one of 'direct', 'page', or 'github_release'."
+[[ "${frequency_check}" =~ ^[0-9]+$ ]] || abort "'frequency_check' (${frequency_check}) needs to be a number."
+
+# Check for updates
+if [[ $(find "${local_info_plist}" -mtime +"${frequency_check}"d) ]]; then
+  if ! url_exists "${remote_info_plist}"; then abort "'remote_info_plist' (${remote_info_plist}) appears to not be reachable."; fi # Remote sanity check
+
+  readonly tmp_file="$(mktemp)"
+  curl --silent --location --output "${tmp_file}" "${remote_info_plist}"
+  readonly remote_version="$(/usr/libexec/PlistBuddy -c 'print version' "${tmp_file}")"
+
+  if [[ "${local_version}" == "${remote_version}" ]]; then
+    touch "${local_info_plist}" # Reset timer by touching local file
+    exit 0
+  fi
+
+  if [[ "${download_type}" == 'page' ]]; then
+    notification 'Opening download page…'
+    open "${workflow_url}"
+    exit 0
+  fi
+
+  download_url="$([[ "${download_type}" == 'github_release' ]] &amp;&amp; curl --silent "https://api.github.com/repos/${workflow_url}/releases/latest" | grep 'browser_download_url' | head -1 | sed -E 's/.*browser_download_url": "(.*)"/\1/' || echo "${workflow_url}")"
+
+  if url_exists "${download_url}"; then
+    notification 'Downloading and installing…'
+    curl --silent --location --output "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow" "${download_url}"
+    open "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow"
+  else
+    abort "'workflow_url' (${download_url}) appears to not be reachable."
+  fi
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>2F761798-BE46-4661-A646-2C65036A2134</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>0383BA4A-9598-424F-8F81-3835F30E51A6</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>note</key>
+			<string>MakeAppIcon - Success</string>
+			<key>xpos</key>
+			<integer>840</integer>
+			<key>ypos</key>
+			<integer>440</integer>
+		</dict>
+		<key>04C31468-0450-4688-B4A4-4CE6D2A144C5</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>note</key>
+			<string>MakeAppIcon - Min Size Error</string>
+			<key>xpos</key>
+			<integer>710</integer>
+			<key>ypos</key>
+			<integer>320</integer>
+		</dict>
+		<key>1A2D9EC9-AAEE-4D40-8E95-E08019A52960</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>note</key>
+			<string>MakeAppIcon - Error</string>
+			<key>xpos</key>
+			<integer>610</integer>
+			<key>ypos</key>
+			<integer>180</integer>
+		</dict>
+		<key>21421912-D643-4226-9610-5A28F68255D3</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>note</key>
+			<string>MakeAppIcon</string>
+			<key>xpos</key>
+			<integer>170</integer>
+			<key>ypos</key>
+			<integer>150</integer>
+		</dict>
+		<key>219F351C-9C24-4FF1-AC88-1DD0BA24C80C</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>note</key>
+			<string>MakeAppIcon - Success</string>
+			<key>xpos</key>
+			<integer>610</integer>
+			<key>ypos</key>
+			<integer>470</integer>
+		</dict>
+		<key>27E772FF-2970-4869-AF70-401CFAD3A91C</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>note</key>
+			<string>MakeAppIcon - Error</string>
+			<key>xpos</key>
+			<integer>840</integer>
+			<key>ypos</key>
+			<integer>150</integer>
+		</dict>
+		<key>2F761798-BE46-4661-A646-2C65036A2134</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>note</key>
+			<string>OneUpdater</string>
+			<key>xpos</key>
+			<integer>410</integer>
+			<key>ypos</key>
+			<integer>580</integer>
+		</dict>
+		<key>674883FF-33FD-4074-AD35-2D310FD61DB8</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>note</key>
+			<string>MakeAppIcon - Square Error</string>
+			<key>xpos</key>
+			<integer>840</integer>
+			<key>ypos</key>
+			<integer>10</integer>
+		</dict>
+		<key>CDD9CBC5-F3E1-42E4-97C6-262C12C0AC81</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>note</key>
+			<string>MakeAppIcon - Min Size Error</string>
+			<key>xpos</key>
+			<integer>840</integer>
+			<key>ypos</key>
+			<integer>290</integer>
+		</dict>
+		<key>E19F01AB-371F-4B1B-A2AB-4752CE3352EB</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>note</key>
+			<string>MakeAppIcon - Square Error</string>
+			<key>xpos</key>
+			<integer>710</integer>
+			<key>ypos</key>
+			<integer>40</integer>
+		</dict>
+		<key>F913A4D1-A8A0-4DDB-B408-63421EAFC5B7</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>note</key>
+			<string>MakeAppIcon - Error</string>
+			<key>xpos</key>
+			<integer>710</integer>
+			<key>ypos</key>
+			<integer>180</integer>
+		</dict>
+		<key>F9A25DB7-7524-49F4-A710-63D72C81878E</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>note</key>
+			<string>MakeAppIcon</string>
+			<key>xpos</key>
+			<integer>410</integer>
+			<key>ypos</key>
+			<integer>150</integer>
+		</dict>
+	</dict>
+	<key>version</key>
+	<string>2017.12.15</string>
+	<key>webaddress</key>
+	<string>https://github.com/vookimedlo/alfred-make-appicon</string>
+</dict>
+</plist>
