@@ -6,7 +6,7 @@
 2) All further updates are handled automatically.
 
 ## Usage
-In finder, select an image file which is at least 1024x1024px size and invoke the alfred file actions, by default the <kbd>⌃﻿⌘\\</kbd> shortcut.
+In finder, select an image file, which is at least 1024x1024px large, and invoke the alfred file actions, by default the <kbd>⌃﻿⌘\\</kbd> shortcut.
 
 The new `icns` file will be created in the same location as the original input file. 
 
